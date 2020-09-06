@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo__wrap { 
+    width: 80px;
+    height: auto;}
+.menu-list {
+        display: flex;
+        list-style: none;
+}
+.menu-item {
+        margin-left: 30px;
+}
+nav .active {
+        color:#3498db!important;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.products__name h4:hover {
+    color: #c86a19;
+}
+
+.products__name h5{ color: black}
+
+.menu li{
+    list-style-type: none;
+}
+
+
+.banner {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+   
+}
+.product__list {
+    display: flex;
+    margin: 0 15px;
+}
+.product__wrapper {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.products__img img{ 
+    width: 160px;
+    height:auto;
+}
+
+h1.product__title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.products__name{
+    color:pink;
+    text-decoration: none;
+}
+
+.product__content a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: #9b59b6;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+}
+footer .policy {
+    margin-top: 6px;
+}
+
+footer .policy a{ text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+
+footer .policy a:active, footer .policy a:hover {
+        color: black;
+}
+
+.social-link a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.social-link {
+    margin-top: 10px;
+}
+
+.social-link a {
+    text-decoration: none;
+    padding: 10px;
+    color: white
+}
+
+.social-link a:active, .social-link a:hover {
+    color: black;
+}
+main {
+    display: block;
+}
+div {
+    display: block;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+img.banner__img {
+    width: 100%;
+}
+
+.menu-item a:hover {
+    color: blue;
+}
+
+/* about us */
+.about{ 
+    text-align: justify;
+    margin: 10;
+    
+
+}
+
+h1{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+.about p{
+    font-size: 30px;
+    color: gray;
+    padding: 12px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+}
+
+.content{
+    text-align: justify;
+    padding: 20px 20px;
+    margin: 10px;
+}
