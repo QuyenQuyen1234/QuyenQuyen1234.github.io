@@ -10,7 +10,8 @@
     margin-right: auto;
 }
 .logo__wrap { 
-    width: 80px;
+    width: 100px;
+    margin-left: 20px;
     height: auto;}
 .menu-list {
         display: flex;
